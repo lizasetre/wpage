@@ -9,7 +9,7 @@ $page = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page']: '';
     <body>
 	    
      <div class="header">
-     <h1>Header</h1>
+     <h1></h1>
      </div>
 	    	    
       <div class="navbar">
