@@ -17,6 +17,21 @@ $page = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page']: '';
     </div>       
     </section>     
      </div>
+
+<div class='camera'>
+  <div class='tower1'>
+</div>
+  <div class='effiel'>
+</div>
+  <div class='tower3'>
+</div>
+  <div class='tower4'>
+</div>
+  <div class='outer-circle'>
+</div>
+  <div class='aah'>
+    </div>
+  </div>
 	    	    
       <div class="navbar">
         <center><a href="index.php?page=home">Home</a>
