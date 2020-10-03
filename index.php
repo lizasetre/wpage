@@ -1,19 +1,19 @@
-<html>
-<head>
-<title>CSS Website Layout</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  margin: 0;
-}
-.column {
-  float: left;
-  width: 33.33%;
-}
-<div class="footer">
-  <p>Footer</p>
-</div>
-}
-</html>
-  </head>
+<?php 
+$page = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page']: '';
+?>
+<html> 
+    <head>
+      <title> Asetre API </title>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+	    
+	    
+      <div class="navbar">
+        <center><a href="index.php?page=product">Products</a>
+        <a href="index.php?page=categories">Category</a>
+        <a href="index.php?page=create">Create</a>
+      </div>
+
+    <div id="content">         
+      <?php 
