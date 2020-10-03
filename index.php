@@ -1,4 +1,4 @@
-<html lang="en">
+<html>
 <head>
 <title>CSS Website Layout</title>
 <meta charset="utf-8">
