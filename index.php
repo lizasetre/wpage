@@ -30,21 +30,14 @@ $page = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page']: '';
 	    
 <br><br><br><br><br><br><br><br><br><br>
 	<div class="footer">
+	<div class="container">
+  	<ul class="submenu">
+    	<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+    	<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+    	<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+    	<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+  	</ul>
+</div>	
       </div>
-   
-   <div class="social-icons"> 
-   <a class="social-icon social-icon--twitter">
-    <i class="fa fa-twitter"></i>
-    <div class="tooltip">Twitter</div>
-  </a>
-  <a class="social-icon social-icon--instagram">
-    <i class="fa fa-instagram"></i>
-    <div class="tooltip">Instagram</div>
-  </a>
-  <a class="social-icon social-icon--facebook">
-    <i class="fa fa-facebook"></i>
-    <div class="tooltip">Facebook</div>
-  </a>
-</div>
     </body>
 </html>
