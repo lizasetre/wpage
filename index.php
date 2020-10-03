@@ -10,25 +10,6 @@ $page = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page']: '';
 	    
      <div class="header">
      <h1>Smile Studio</h1>
-     <div class='camera'>
-     <div class='tower1'>
-     </div>
-     <div class='effiel'>
-     </div>
-     <div class='tower3'>
-     </div>
-     <div class='tower4'>
-     </div>
-     <div class='outer-circle'>
-     </div>
-     <div class='aah'>
-     </div>
-     </div>     
-     <section>
-     <div id="insta_wrapper">
-    <div class="viewfinder"></div>
-    <div class="camera"></div>
-    </div>  
     </section>     
      </div>
 	    	    
