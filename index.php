@@ -3,7 +3,7 @@ $page = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page']: '';
 ?>
 <html> 
     <head>
-      <title> Asetre API </title>
+      <title> Webpage Layout </title>
       <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
@@ -16,4 +16,8 @@ $page = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page']: '';
       </div>
 
     <div id="content">         
-      <?php 
+	    
+	<div class="footer">
+      </div>
+    </body>
+</html>
