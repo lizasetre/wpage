@@ -17,6 +17,7 @@ $page = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page']: '';
 
     <div id="content">         
 	    
+<br><br><br><br><br><br><br><br><br><br>
 	<div class="footer">
       </div>
     </body>
