@@ -131,7 +131,9 @@ section {
   100% {
     background-color: #fff000;
   }
-
+  
+  $icon: 400 1em/50px 'FontAwesome';
+  
  .social{
   margin: 0 auto;
   padding-top: 100px;
