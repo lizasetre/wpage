@@ -11,10 +11,9 @@ body {
   float: left;
   width: 33.33%;
 }
-.footer {
-  background-color: #F1F1F1;
-  text-align: center;
-  padding: 10px;
+<div class="footer">
+  <p>Footer</p>
+</div>
 }
 </html>
   </head>
