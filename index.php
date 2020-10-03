@@ -22,6 +22,7 @@ $page = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page']: '';
         <center><a href="index.php?page=home">Home</a>
         <a href="index.php?page=aboutus">About Us</a>
         <a href="index.php?page=loginsignup">Login/Signup</a>
+	<a href="index.php?page=booknow">Book Now</a>
       </div>
 
     <div id="content">         
