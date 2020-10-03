@@ -8,7 +8,10 @@ $page = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page']: '';
     </head>
     <body>
 	    
-	    
+     <div class="header">
+     <h1>Header</h1>
+     </div>
+	    	    
       <div class="navbar">
         <center><a href="index.php?page=product">Products</a>
         <a href="index.php?page=categories">Category</a>
