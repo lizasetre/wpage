@@ -16,3 +16,5 @@ body {
   text-align: center;
   padding: 10px;
 }
+</html>
+  </head>
