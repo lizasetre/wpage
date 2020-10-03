@@ -34,3 +34,100 @@ body
     padding: 14px 20px;
     text-decoration: none;
   }
+
+   body {
+  background: #FFF;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  margin-top: 70px;
+}
+
+#insta_wrapper {
+  align-items: center;
+  border: 25px solid white;
+  border-radius: 30% 30% 30% 30%;
+  display: flex;
+  height: 220px;
+  width: 220px;
+  margin: 0 auto;
+}
+
+.camera {
+  border: 25px solid white;
+  border-radius: 50%;
+  margin: 0 auto;
+  height: 80px;
+  width: 80px;
+  position: relative;
+  right: 15px;
+  top: 3px;
+}
+
+.viewfinder {
+  background: white;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  position: relative;
+  top: -67px;
+  right: -162px;
+}
+
+
+/* Call Animations */
+
+#insta_wrapper {
+  animation: gradientPop 3.5s infinite alternate;
+}
+
+.viewfinder {
+  animation: gradientPopBG 3.5s infinite alternate;
+}
+
+.camera {
+  animation: gradientPop 3.5s infinite alternate;
+}
+
+@keyframes gradientPop {
+  0% {
+    border-color: #0a00b2;
+  }
+  25% {
+    border-color: #6a006c;
+  }
+  50% {
+    border-color: #d30020;
+  }
+  75% {
+    border-color: #ff3100;
+  }
+  80% {
+    border-color: #ff8e00;
+  }
+  100% {
+    border-color: #fff000;
+  }
+}
+
+@keyframes gradientPopBG {
+  0% {
+    background-color: #0a00b2;
+  }
+  25% {
+    background-color: #6a006c;
+  }
+  50% {
+    background-color: #d30020;
+  }
+  75% {
+    background-color: #ff3100;
+  }
+  80% {
+    background-color: #ff8e00;
+  }
+  100% {
+    background-color: #fff000;
+  }
