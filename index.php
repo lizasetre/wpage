@@ -23,5 +23,12 @@ $page = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page']: '';
 <br><br><br><br><br><br><br><br><br><br>
 	<div class="footer">
       </div>
+	    
+<section>
+  <div id="insta_wrapper">
+    <div class="viewfinder"></div>
+    <div class="camera"></div>
+  </div>  
+</section>
     </body>
 </html>
