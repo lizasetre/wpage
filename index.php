@@ -1,4 +1,5 @@
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<div class="element">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <?php 
 $page = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page']: '';
 ?>
@@ -30,15 +31,10 @@ $page = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page']: '';
     <div id="content">         
 	    
 <br><br><br><br><br><br><br><br><br><br>
-	    <div class="social">
-	  <ul>
-	    <li class="facebook"></li>
-	    <li class="twitter"></li>
-	    <li class="google"></li>
-	    <li class="instagram"></li>
-  	   </ul>
-	</div>
 	<div class="footer">
+		<center><br><br><br><a div class="fa fa-facebook">
+<a div class="fa fa-twitter">
+<a div class="fa fa-instagram">
 	    </div>	
       </div>
     </body>
